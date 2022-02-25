@@ -10,13 +10,17 @@
   }  
 }
 @media screen and (min-width: 481px) and (max-width: 980px) {
-    
+   body{
+       background-color: aqua;
+   } 
 }
 
 body { 
     background-color: white;
-    
+    padding: 2rem 4rem;
 }
+
+
 
 .header-container {
     margin: 12px;
@@ -52,8 +56,8 @@ nav{
     max-width: 100%;
 }
 
-.icono-header{
-width: 50px;
+.icono-header {
+    height: 50px;
 }
 
 .icono-header:hover {
@@ -250,6 +254,10 @@ h1 {
 
     .img-dos{
        display: none;
+    }
+
+    .img-liongold{
+        display: none;
     }
 }
  
