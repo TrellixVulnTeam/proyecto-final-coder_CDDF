@@ -1,11 +1,23 @@
 {
   "name": "desafio-css-coder-leonel-chamorro",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonelChamorroVictorio/proyecto-final-coder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeonelChamorroVictorio/proyecto-final-coder/issues"
+  },
+  "homepage": "https://github.com/LeonelChamorroVictorio/proyecto-final-coder#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
 }
