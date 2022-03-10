@@ -79,6 +79,12 @@ h1 {
     display: none;
   }
 }
+.pie-pagina .box figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-social {
   width: 50px;
   justify-content: start;
@@ -96,11 +102,6 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 45px 0px;
-}
-.pie-pagina .box figure {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .pie-pagina img {
   width: 100px;
@@ -139,6 +140,12 @@ h1 {
 }
 .pie-pagina .grupo-2 small {
   font-size: 15px;
+}
+
+.pie-pagina .box figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

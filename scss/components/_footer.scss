@@ -2,6 +2,8 @@
 
 @import '../base/listas';
 @import '../base/maps';
+@import '../base/extends';
+@import '../base/mixins';
 .footer-social{
     width: 50px;
     justify-content: start;
@@ -22,9 +24,7 @@
     padding: 45px 0px; }
     
     .box figure{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %box-figure;
     }
     img{
         width: 100px;
@@ -56,7 +56,7 @@
         color: nth($colores, 7);
     }
     .grupo-2{
-        background-color: #0a1a2a;
+        @include colores(#0a1a2a);
         padding: 15px 10px;
         text-align: center;
         color: aliceblue;
