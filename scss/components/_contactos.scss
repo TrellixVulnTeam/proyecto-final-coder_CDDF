@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form{
+    background-color: aliceblue;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+.form-input {
+    font-family: inherit;
+}
+
+.form-cta{
+    font-family: inherit;
+}

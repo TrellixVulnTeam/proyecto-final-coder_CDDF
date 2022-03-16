@@ -126,10 +126,26 @@ h1 {
   font-size: 15px;
 }
 
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    -ms-grid-row-align: 30px;
+    padding: 35px 0px;
+  }
+
+  .img-dos {
+    display: none;
+  }
+
+  .img-liongold {
+    display: none;
+  }
+}
 .pie-pagina .box figure {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css~.map */
