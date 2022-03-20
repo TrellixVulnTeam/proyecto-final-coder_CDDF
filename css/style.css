@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap");
 .header-container {
   margin: 12px;
   background-color: black;
@@ -126,6 +127,90 @@ h1 {
   font-size: 15px;
 }
 
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    -ms-grid-row-align: 30px;
+    padding: 35px 0px;
+  }
+
+  .img-dos {
+    display: none;
+  }
+
+  .img-liongold {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-contactos {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form {
+  background-color: aliceblue;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+
+.form-container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 0.4em;
+}
+
+.form-input {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 0.2em;
+}
+
+.form-input--message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
+}
+
+.form-cta {
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #089FE0;
+  color: aliceblue;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  font-weight: 600;
+}
+
+@media (max-width: 450px) {
+  .form {
+    padding: 3.5em 1em;
+  }
+}
 .pie-pagina .box figure {
   display: flex;
   justify-content: center;

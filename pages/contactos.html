@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/a917249cac.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body>
+<body class="body-contactos">
     <header class= "header-container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -47,12 +47,13 @@
   
   </header>
 
-  <form action="form">
+  <form class="form" action="https://formspree.io/f/myyoponj"
+  method="POST">
     <div class="form-container">
-        <h2 class="form-container">Contáctame</h2>
-        <input type="text" class="form-input" placeholder="Nombre:">
-        <input type="email" class="form-input" placeholder="Email:">
-        <textarea class="form-input form-input--menssage" placeholder="Mensaje"></textarea>
+        <h2 class="form-title">Contáctame</h2>
+        <input type="text" class="form-input" placeholder="Nombre:" name="name">
+        <input type="email" class="form-input" placeholder="Email:" name="_replyto">
+        <textarea class="form-input form-input--menssage" placeholder="Mensaje" name="message"></textarea>
 
         <input type="submit" value="Enviar" class="form-cta">
     </div>
