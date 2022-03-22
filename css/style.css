@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap");
+
+body{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
 .header-container {
   margin: 12px;
   background-color: black;
@@ -127,22 +132,6 @@ h1 {
   font-size: 15px;
 }
 
-@media screen and (max-width: 800px) {
-  .pie-pagina .grupo-1 {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    -ms-grid-row-align: 30px;
-    padding: 35px 0px;
-  }
-
-  .img-dos {
-    display: none;
-  }
-
-  .img-liongold {
-    display: none;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -204,6 +193,23 @@ h1 {
   padding: 0.7em 0;
   border-radius: 0.2em;
   font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    -ms-grid-row-align: 30px;
+    padding: 35px 0px;
+  }
+
+  .img-dos {
+    display: none;
+  }
+
+  .img-liongold {
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
