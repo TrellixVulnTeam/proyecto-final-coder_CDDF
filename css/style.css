@@ -1,13 +1,4 @@
 @import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap");
-
-body{
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  padding: 1%;
-  margin: 12px;
-  text-align: center;
-
-}
-
 .header-container {
   margin: 12px;
   background-color: black;
@@ -136,6 +127,22 @@ h1 {
   font-size: 15px;
 }
 
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    -ms-grid-row-align: 30px;
+    padding: 35px 0px;
+  }
+
+  .img-dos {
+    display: none;
+  }
+
+  .img-liongold {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -199,44 +206,35 @@ h1 {
   font-weight: 600;
 }
 
-.contenedor_menciones{
+@media (max-width: 450px) {
+  .form {
+    padding: 3.5em 1em;
+  }
+}
+.contenedor_menciones {
   display: flex;
   flex-wrap: wrap;
   padding-left: 12%;
   padding-right: 12%;
- }
- .contenedor_menciones div iframe{
-   width: 100%;
-   height: 400px;
- }
- .contenedor_menciones div{
-   width: 46%;
-   margin: 2%;
- }
-
-
-  
-
-@media screen and (max-width: 800px) {
-  .pie-pagina .grupo-1 {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    -ms-grid-row-align: 30px;
-    padding: 35px 0px;
-  }
-
-  .img-dos {
-    display: none;
-  }
-
-  .img-liongold {
-    display: none;
-  }
 }
 
-@media (max-width: 450px) {
-  .form {
-    padding: 3.5em 1em;
+.contenedor_menciones div iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.contenedor_menciones div {
+  width: 46%;
+  margin: 2%;
+}
+
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .contenedor_menciones div {
+    width: 100%;
   }
 }
 .pie-pagina .box figure {
